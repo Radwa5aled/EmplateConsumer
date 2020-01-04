@@ -33,7 +33,7 @@ struct PostsModel: Codable, Equatable {
     }
     
     static func == (lhs: PostsModel, rhs: PostsModel) -> Bool {
-        return true
+        return (lhs.id == rhs.id) && (lhs.name == rhs.name) && (lhs.createdAt == rhs.createdAt)
     }
     
 }
