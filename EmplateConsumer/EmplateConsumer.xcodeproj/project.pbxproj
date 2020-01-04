@@ -14,7 +14,7 @@
 		44F8895923C09B470032F371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F8895723C09B470032F371 /* Main.storyboard */; };
 		44F8895B23C09B4A0032F371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F8895A23C09B4A0032F371 /* Assets.xcassets */; };
 		44F8895E23C09B4A0032F371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F8895C23C09B4A0032F371 /* LaunchScreen.storyboard */; };
-		44F8896923C09B4B0032F371 /* EmplateConsumerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8896823C09B4B0032F371 /* EmplateConsumerTests.swift */; };
+		44F8896923C09B4B0032F371 /* EndPointPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8896823C09B4B0032F371 /* EndPointPostTests.swift */; };
 		44F8897423C09B4B0032F371 /* EmplateConsumerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8897323C09B4B0032F371 /* EmplateConsumerUITests.swift */; };
 		44F8898823C09E2E0032F371 /* sf-pro-text-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F8898423C09E2D0032F371 /* sf-pro-text-regular.ttf */; };
 		44F8898923C09E2E0032F371 /* sf-pro-text-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F8898423C09E2D0032F371 /* sf-pro-text-regular.ttf */; };
@@ -73,6 +73,10 @@
 		44F889D223C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
 		44F889D323C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
 		44F889D423C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
+		44F889D623C0C7410032F371 /* UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D523C0C7410032F371 /* UtilitiesTests.swift */; };
+		44F889E123C0CC2F0032F371 /* MockPosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 44F889E023C0CC2F0032F371 /* MockPosts.json */; };
+		44F889E223C0CC2F0032F371 /* MockPosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 44F889E023C0CC2F0032F371 /* MockPosts.json */; };
+		44F889E323C0CC2F0032F371 /* MockPosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 44F889E023C0CC2F0032F371 /* MockPosts.json */; };
 		452D95C4D9EA53AECA5E6F7E /* Pods_EmplateConsumerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ACDB7EF9B041F713540ABF /* Pods_EmplateConsumerUITests.framework */; };
 		AC65995841C22E6CCBC1C0FF /* Pods_EmplateConsumerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C123C4777FEA128E84B1B /* Pods_EmplateConsumerTests.framework */; };
 /* End PBXBuildFile section */
@@ -105,7 +109,7 @@
 		44F8895D23C09B4A0032F371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44F8895F23C09B4A0032F371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F8896423C09B4B0032F371 /* EmplateConsumerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmplateConsumerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F8896823C09B4B0032F371 /* EmplateConsumerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmplateConsumerTests.swift; sourceTree = "<group>"; };
+		44F8896823C09B4B0032F371 /* EndPointPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointPostTests.swift; sourceTree = "<group>"; };
 		44F8896A23C09B4B0032F371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F8896F23C09B4B0032F371 /* EmplateConsumerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmplateConsumerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F8897323C09B4B0032F371 /* EmplateConsumerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmplateConsumerUITests.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFailScreen.xib; sourceTree = "<group>"; };
 		44F889CA23C0BD900032F371 /* CustomFailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFailScreen.swift; sourceTree = "<group>"; };
 		44F889D123C0BDF30032F371 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		44F889D523C0C7410032F371 /* UtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesTests.swift; sourceTree = "<group>"; };
+		44F889E023C0CC2F0032F371 /* MockPosts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockPosts.json; sourceTree = "<group>"; };
 		5374CB5B1F1F97F3C54108DF /* Pods-EmplateConsumerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumerTests.debug.xcconfig"; path = "Target Support Files/Pods-EmplateConsumerTests/Pods-EmplateConsumerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		703CED6A662FE0553DC8AA0B /* Pods-EmplateConsumerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumerUITests.release.xcconfig"; path = "Target Support Files/Pods-EmplateConsumerUITests/Pods-EmplateConsumerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85F1D2C1D286E563077DF4D6 /* Pods-EmplateConsumer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumer.debug.xcconfig"; path = "Target Support Files/Pods-EmplateConsumer/Pods-EmplateConsumer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +217,8 @@
 		44F8896723C09B4B0032F371 /* EmplateConsumerTests */ = {
 			isa = PBXGroup;
 			children = (
-				44F8896823C09B4B0032F371 /* EmplateConsumerTests.swift */,
+				44F8896823C09B4B0032F371 /* EndPointPostTests.swift */,
+				44F889D523C0C7410032F371 /* UtilitiesTests.swift */,
 				44F8896A23C09B4B0032F371 /* Info.plist */,
 			);
 			path = EmplateConsumerTests;
@@ -260,6 +267,7 @@
 		44F8899823C0ABBE0032F371 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				44F889D723C0CB380032F371 /* MockUp */,
 				44F8899923C0ABE40032F371 /* EndPointPosts.swift */,
 			);
 			path = Network;
@@ -302,6 +310,14 @@
 				44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */,
 			);
 			path = FailView;
+			sourceTree = "<group>";
+		};
+		44F889D723C0CB380032F371 /* MockUp */ = {
+			isa = PBXGroup;
+			children = (
+				44F889E023C0CC2F0032F371 /* MockPosts.json */,
+			);
+			path = MockUp;
 			sourceTree = "<group>";
 		};
 		500693E87F439B6C88022BF4 /* Frameworks */ = {
@@ -437,6 +453,7 @@
 			files = (
 				44F8895E23C09B4A0032F371 /* LaunchScreen.storyboard in Resources */,
 				44F8895B23C09B4A0032F371 /* Assets.xcassets in Resources */,
+				44F889E123C0CC2F0032F371 /* MockPosts.json in Resources */,
 				44F8898B23C09E2E0032F371 /* sf-pro-text-light.ttf in Resources */,
 				44F889CB23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
 				44F889C123C0BCF60032F371 /* PostCell.xib in Resources */,
@@ -452,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F889CC23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
+				44F889E223C0CC2F0032F371 /* MockPosts.json in Resources */,
 				44F8898F23C09E2E0032F371 /* sf-pro-text-bold.ttf in Resources */,
 				44F8899223C09E2E0032F371 /* sf-pro-text-medium.ttf in Resources */,
 				44F889C223C0BCF60032F371 /* PostCell.xib in Resources */,
@@ -465,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F889CD23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
+				44F889E323C0CC2F0032F371 /* MockPosts.json in Resources */,
 				44F8899023C09E2E0032F371 /* sf-pro-text-bold.ttf in Resources */,
 				44F8899323C09E2E0032F371 /* sf-pro-text-medium.ttf in Resources */,
 				44F889C323C0BCF60032F371 /* PostCell.xib in Resources */,
@@ -592,7 +611,7 @@
 				44F889B623C0BCCE0032F371 /* PostsRouter.swift in Sources */,
 				44F889AD23C0BCCE0032F371 /* PostsViewController.swift in Sources */,
 				44F889D323C0BDF30032F371 /* Utilities.swift in Sources */,
-				44F8896923C09B4B0032F371 /* EmplateConsumerTests.swift in Sources */,
+				44F8896923C09B4B0032F371 /* EndPointPostTests.swift in Sources */,
 				44F889A023C0ACA40032F371 /* PostModel.swift in Sources */,
 				44F889C623C0BD760032F371 /* LoaderHelper.swift in Sources */,
 				44F8899B23C0ABE40032F371 /* EndPointPosts.swift in Sources */,
@@ -600,6 +619,7 @@
 				44F889B323C0BCCE0032F371 /* PostsProtocols.swift in Sources */,
 				44F8899623C09EB90032F371 /* Constants.swift in Sources */,
 				44F889BF23C0BCF60032F371 /* PostCell.swift in Sources */,
+				44F889D623C0C7410032F371 /* UtilitiesTests.swift in Sources */,
 				44F889B923C0BCCE0032F371 /* PostsInteractor.swift in Sources */,
 				44F889A423C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */,
 				44F889CF23C0BD900032F371 /* CustomFailScreen.swift in Sources */,

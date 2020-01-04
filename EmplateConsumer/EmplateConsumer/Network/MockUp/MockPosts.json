@@ -1,0 +1,98 @@
+[
+    {
+        "type": "posts",
+        "id": 32408,
+        "name": "Kæmpe udvalg i covers og tilbehør",
+        "approved": true,
+        "collectible": false,
+        "parameters": null,
+        "url": "https://emplate.dev/v9/posts/32408.html",
+        "created_at": "2019-02-14T08:10:54+00:00",
+        "updated_at": "2019-06-07T17:26:45+00:00",
+        "deleted_at": null,
+        "postfields": [
+            {
+                "type": "postfields",
+                "id": 39201,
+                "post_id": 32408,
+                "postFieldType_id": 6,
+                "order": 0,
+                "content": "{\"images\":[50064],\"text\":\"WeCoverYou er Danmarks største fysiske konceptkæde med covers og tilbehør til smartphones, tablets og computere. \\n\\nFind blandt andet: \\n• Earphones og headphones\\n• Beskyttelsesglas \\n• Gaming udstyr\\n• Højtalere\\n• Powerbanks og kabler\\n• PopSockets\\n\\nOg meget mere i butikken\",\"redeemable\":false}",
+                "created_at": "2019-02-14T08:10:54+00:00",
+                "updated_at": "2019-02-14T08:10:54+00:00"
+            }
+        ],
+        "postperiods": [
+            {
+                "type": "postperiods",
+                "id": 34675,
+                "start": "2019-02-13T23:00:00+00:00",
+                "stop": "2019-12-31T22:59:00+00:00",
+                "created_at": "2019-02-14T08:10:54+00:00",
+                "updated_at": "2019-02-14T08:10:54+00:00"
+            }
+        ],
+        "thumbnail": {
+            "type": "media",
+            "id": 50064,
+            "name": null,
+            "filetype": "jpeg",
+            "width": 750,
+            "height": 750,
+            "urls": {
+                "original": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/50064.jpeg",
+                "large": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/50064-large.jpeg",
+                "mobile": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/50064-mobile.jpeg",
+                "thumbnail": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/50064-thumbnail.jpeg"
+            }
+        }
+    },
+    {
+        "type": "posts",
+        "id": 49755,
+        "name": "Han Kjøbenhavn Boxy Shirt",
+        "approved": true,
+        "collectible": true,
+        "parameters":"",
+        "url": "https://emplate.dev/v9/posts/49755.html",
+        "created_at": "2019-09-24T08:10:19+00:00",
+        "updated_at": "2019-09-24T08:10:56+00:00",
+        "deleted_at": null,
+        "postfields": [
+            {
+                "type": "postfields",
+                "id": 56743,
+                "post_id": 49755,
+                "postFieldType_id": 6,
+                "order": 0,
+                "content": "{\"redeemable\":false,\"price\":\"1400,-\",\"images\":[78816],\"text\":\"Black\"}",
+                "created_at": "2019-09-24T08:10:19+00:00",
+                "updated_at": "2019-09-24T08:10:19+00:00"
+            }
+        ],
+        "postperiods": [
+            {
+                "type": "postperiods",
+                "id": 55504,
+                "start": "2019-09-23T22:00:00+00:00",
+                "stop": "2019-12-31T22:59:00+00:00",
+                "created_at": "2019-09-24T08:10:56+00:00",
+                "updated_at": "2019-09-24T08:10:56+00:00"
+            }
+        ],
+        "thumbnail": {
+            "type": "media",
+            "id": 78816,
+            "name": null,
+            "filetype": "jpeg",
+            "width": 1920,
+            "height": 1920,
+            "urls": {
+                "original": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/78816.jpeg",
+                "large": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/78816-large.jpeg",
+                "mobile": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/78816-mobile.jpeg",
+                "thumbnail": "https://play-emplate.ams3.cdn.digitaloceanspaces.com/media/78816-thumbnail.jpeg"
+            }
+        }
+    }
+]

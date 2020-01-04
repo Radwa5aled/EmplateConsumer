@@ -68,7 +68,6 @@ extension UIViewController {
         customView?.frame = targetView.frame
         customView?.statusImgView.image = isEnternet ? #imageLiteral(resourceName: "bg_no_internet") : #imageLiteral(resourceName: "bg_no_result")
         customView?.messageLAbel.text = msg
-            //isEnternet ? "No internet connection" : "Sorry, There is no results here"
         customView?.reloadBtn.isHidden = isEnternet ? false : true
         superView.addSubview(customView!)
       

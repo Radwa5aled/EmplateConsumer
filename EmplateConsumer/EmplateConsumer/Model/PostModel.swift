@@ -10,7 +10,7 @@ import Foundation
 
 
 // MARK: - PostsModel
-struct PostsModel: Codable {
+struct PostsModel: Codable, Equatable {
     
     var type: String?
     var id: Int?
@@ -23,7 +23,7 @@ struct PostsModel: Codable {
     var postfields: [Postfield]?
     var postperiods: [Postperiod]?
     var thumbnail: Thumbnail?
-
+    
     enum CodingKeys: String, CodingKey {
         case type, id, name, approved, collectible, parameters, url
         case createdAt = "created_at"
@@ -31,6 +31,11 @@ struct PostsModel: Codable {
         case deletedAt = "deleted_at"
         case postfields, postperiods, thumbnail
     }
+    
+    static func == (lhs: PostsModel, rhs: PostsModel) -> Bool {
+        return true
+    }
+    
 }
 
 // MARK: - Postfield

@@ -33,9 +33,20 @@ extension EndPointPosts: TargetType {
     }
   }
 
-  public var sampleData: Data {
-    return Data()
-  }
+    public var sampleData: Data {
+        
+        if let path = Bundle.main.path(forResource: "MockPosts", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                return data
+            } catch {
+                return Data()
+            }
+        } else {
+            return Data()
+        }
+        
+    }
 
   public var task: Task {
     //return .requestPlain // TODO
