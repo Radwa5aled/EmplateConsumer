@@ -35,6 +35,10 @@ class PostsViewController: UIViewController{
         tableView.register(UINib(nibName: "PostCell",bundle: nil), forCellReuseIdentifier: "PostCell")
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 471
+        
+        tableView.isAccessibilityElement = true
+        tableView.accessibilityIdentifier = "identTableView"
+        
     }
     
 }
@@ -53,6 +57,10 @@ extension PostsViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as! PostCell
         
         cell.setData(model: postsArr[indexPath.row])
+        
+        cell.isAccessibilityElement = true
+        cell.accessibilityIdentifier = String(format: "tVC_%d_%d",
+                                              indexPath.section, indexPath.row)
         
         return cell
     }

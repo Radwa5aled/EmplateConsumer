@@ -9,35 +9,46 @@
 import XCTest
 
 class EmplateConsumerUITests: XCTestCase {
-
+    
+    private var app: XCUIApplication!
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-
+        
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
+        app = XCUIApplication()
+        app.launch()
+        
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
-
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        app = nil
+        super.tearDown()
     }
-
-    func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    private func testForCellExistence() {
+        
+        let detailstable = app.tables.matching(identifier: "identTableView")
+        let firstCell = detailstable.cells.element(matching: .cell, identifier: "tVC_0_0")
+        let existencePredicate = NSPredicate(format: "exists == 1")
+        let expectationEval = expectation(for: existencePredicate, evaluatedWith: firstCell, handler: nil)
+        let mobWaiter = XCTWaiter.wait(for: [expectationEval], timeout: 10.0)
+        XCTAssert(XCTWaiter.Result.completed == mobWaiter, "tableView first cell not exist")
     }
-
-    func testLaunchPerformance() {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    
+    private func testForCellSelection() {
+        let detailstable = app.tables.matching(identifier: "identTableView")
+        let firstCell = detailstable.cells.element(matching: .cell, identifier: "dtTVC_0_0")
+        let predicate = NSPredicate(format: "isHittable == true")
+        let expectationEval = expectation(for: predicate, evaluatedWith: firstCell, handler: nil)
+        let waiter = XCTWaiter.wait(for: [expectationEval], timeout: 10.0)
+        XCTAssert(XCTWaiter.Result.completed == waiter, "tableView first cell selection disabled")
+        firstCell.tap()
     }
+    
 }

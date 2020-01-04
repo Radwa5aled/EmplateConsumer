@@ -32,6 +32,13 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods-EmplateConsumer-EmplateConsumerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-EmplateConsumer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -40,13 +47,6 @@
 			<integer>4</integer>
 		</dict>
 		<key>Pods-EmplateConsumerTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>Pods-EmplateConsumerUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

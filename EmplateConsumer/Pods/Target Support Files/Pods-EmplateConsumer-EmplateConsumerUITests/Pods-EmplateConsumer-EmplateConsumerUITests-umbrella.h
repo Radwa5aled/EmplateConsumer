@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_EmplateConsumerUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_EmplateConsumerUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_EmplateConsumer_EmplateConsumerUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_EmplateConsumer_EmplateConsumerUITestsVersionString[];
 

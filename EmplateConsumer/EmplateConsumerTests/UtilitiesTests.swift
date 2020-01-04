@@ -21,9 +21,10 @@ class UtilitiesTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         sut = nil
+        super.tearDown()
     }
     
-    func testGetWidth_HeightFactor() {
+    private func testGetWidth_HeightFactor() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
@@ -50,7 +51,7 @@ class UtilitiesTests: XCTestCase {
         
     }
     
-    func testExpirationDateFromCurent() {
+    private func testExpirationDateFromCurent() {
         
         let start1 = "2019-12-11T11:00:00+00:00"
         let stop1 = "2019-12-24T11:00:00+00:00"

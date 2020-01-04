@@ -24,7 +24,7 @@ target 'EmplateConsumer' do
   end
 
   target 'EmplateConsumerUITests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
 
