@@ -6,9 +6,9 @@
 - Display Emplate feeds list with handling offers start and end date.
 - Handle image size according to scale factor between width and height that taken from api.
 - Display thumbnail images with low resolution until high resolution image download.
+- Encode and Decode using Codable.
 - Unit Testing.
 - Ui Testing.
-- Encode and Decode using Codable.
 
 # Architecture Design Pattern
 - VIPER
