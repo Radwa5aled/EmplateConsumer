@@ -7,12 +7,17 @@
 //
 
 import Foundation
+import NVActivityIndicatorView
 
 class Constants: NSObject {
     
     static let baseURL = "https://emplate.dev/v9/"
     static let apiKey = "$2y$10$gpin5yXpMxbjWvsnnDMhLOYO7kpZSag7CKIDndWmUeJ/4WEchaAxK"
     static let postsPath = "posts"
+    
+    //add loader custmization
+    static let colorGreen = #colorLiteral(red: 0, green: 0.568627451, blue: 0.5568627451, alpha: 1)
+    static let activityLoaderData = ActivityData(type: .ballScaleMultiple, color: Constants.colorGreen, minimumDisplayTime:0,backgroundColor:UIColor.clear)
     
     
 }

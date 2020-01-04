@@ -15,7 +15,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if #available(iOS 13.0, *){
+            //do nothing you will find a code in SceneDelegate for this
+        }
+        else {
+            setApplicationNavigation()
+        }
+        
         return true
+    }
+    
+    //MARK:- create viper module and make it root
+    func setApplicationNavigation() {
+        
+        let liveNews = PostsRouter.createModule()
+        self.window = UIWindow(frame: UIScreen.main.bounds);
+        self.window!.rootViewController = liveNews
+        self.window?.makeKeyAndVisible();
+       
     }
     
     // MARK: UISceneSession Lifecycle

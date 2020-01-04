@@ -40,6 +40,39 @@
 		44F889A323C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A223C0ACE90032F371 /* Encode+DecodeHelpers.swift */; };
 		44F889A423C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A223C0ACE90032F371 /* Encode+DecodeHelpers.swift */; };
 		44F889A523C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A223C0ACE90032F371 /* Encode+DecodeHelpers.swift */; };
+		44F889AC23C0BCCE0032F371 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A723C0BCCE0032F371 /* PostsViewController.swift */; };
+		44F889AD23C0BCCE0032F371 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A723C0BCCE0032F371 /* PostsViewController.swift */; };
+		44F889AE23C0BCCE0032F371 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A723C0BCCE0032F371 /* PostsViewController.swift */; };
+		44F889AF23C0BCCE0032F371 /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A823C0BCCE0032F371 /* PostsPresenter.swift */; };
+		44F889B023C0BCCE0032F371 /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A823C0BCCE0032F371 /* PostsPresenter.swift */; };
+		44F889B123C0BCCE0032F371 /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A823C0BCCE0032F371 /* PostsPresenter.swift */; };
+		44F889B223C0BCCE0032F371 /* PostsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A923C0BCCE0032F371 /* PostsProtocols.swift */; };
+		44F889B323C0BCCE0032F371 /* PostsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A923C0BCCE0032F371 /* PostsProtocols.swift */; };
+		44F889B423C0BCCE0032F371 /* PostsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889A923C0BCCE0032F371 /* PostsProtocols.swift */; };
+		44F889B523C0BCCE0032F371 /* PostsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AA23C0BCCE0032F371 /* PostsRouter.swift */; };
+		44F889B623C0BCCE0032F371 /* PostsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AA23C0BCCE0032F371 /* PostsRouter.swift */; };
+		44F889B723C0BCCE0032F371 /* PostsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AA23C0BCCE0032F371 /* PostsRouter.swift */; };
+		44F889B823C0BCCE0032F371 /* PostsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AB23C0BCCE0032F371 /* PostsInteractor.swift */; };
+		44F889B923C0BCCE0032F371 /* PostsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AB23C0BCCE0032F371 /* PostsInteractor.swift */; };
+		44F889BA23C0BCCE0032F371 /* PostsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889AB23C0BCCE0032F371 /* PostsInteractor.swift */; };
+		44F889BE23C0BCF60032F371 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889BC23C0BCF50032F371 /* PostCell.swift */; };
+		44F889BF23C0BCF60032F371 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889BC23C0BCF50032F371 /* PostCell.swift */; };
+		44F889C023C0BCF60032F371 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889BC23C0BCF50032F371 /* PostCell.swift */; };
+		44F889C123C0BCF60032F371 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889BD23C0BCF60032F371 /* PostCell.xib */; };
+		44F889C223C0BCF60032F371 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889BD23C0BCF60032F371 /* PostCell.xib */; };
+		44F889C323C0BCF60032F371 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889BD23C0BCF60032F371 /* PostCell.xib */; };
+		44F889C523C0BD760032F371 /* LoaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889C423C0BD760032F371 /* LoaderHelper.swift */; };
+		44F889C623C0BD760032F371 /* LoaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889C423C0BD760032F371 /* LoaderHelper.swift */; };
+		44F889C723C0BD760032F371 /* LoaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889C423C0BD760032F371 /* LoaderHelper.swift */; };
+		44F889CB23C0BD900032F371 /* CustomFailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */; };
+		44F889CC23C0BD900032F371 /* CustomFailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */; };
+		44F889CD23C0BD900032F371 /* CustomFailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */; };
+		44F889CE23C0BD900032F371 /* CustomFailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889CA23C0BD900032F371 /* CustomFailScreen.swift */; };
+		44F889CF23C0BD900032F371 /* CustomFailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889CA23C0BD900032F371 /* CustomFailScreen.swift */; };
+		44F889D023C0BD900032F371 /* CustomFailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889CA23C0BD900032F371 /* CustomFailScreen.swift */; };
+		44F889D223C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
+		44F889D323C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
+		44F889D423C0BDF30032F371 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F889D123C0BDF30032F371 /* Utilities.swift */; };
 		452D95C4D9EA53AECA5E6F7E /* Pods_EmplateConsumerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ACDB7EF9B041F713540ABF /* Pods_EmplateConsumerUITests.framework */; };
 		AC65995841C22E6CCBC1C0FF /* Pods_EmplateConsumerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C123C4777FEA128E84B1B /* Pods_EmplateConsumerTests.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +118,17 @@
 		44F8899923C0ABE40032F371 /* EndPointPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointPosts.swift; sourceTree = "<group>"; };
 		44F8899E23C0ACA40032F371 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		44F889A223C0ACE90032F371 /* Encode+DecodeHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encode+DecodeHelpers.swift"; sourceTree = "<group>"; };
+		44F889A723C0BCCE0032F371 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		44F889A823C0BCCE0032F371 /* PostsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsPresenter.swift; sourceTree = "<group>"; };
+		44F889A923C0BCCE0032F371 /* PostsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsProtocols.swift; sourceTree = "<group>"; };
+		44F889AA23C0BCCE0032F371 /* PostsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRouter.swift; sourceTree = "<group>"; };
+		44F889AB23C0BCCE0032F371 /* PostsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsInteractor.swift; sourceTree = "<group>"; };
+		44F889BC23C0BCF50032F371 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		44F889BD23C0BCF60032F371 /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		44F889C423C0BD760032F371 /* LoaderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderHelper.swift; sourceTree = "<group>"; };
+		44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFailScreen.xib; sourceTree = "<group>"; };
+		44F889CA23C0BD900032F371 /* CustomFailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFailScreen.swift; sourceTree = "<group>"; };
+		44F889D123C0BDF30032F371 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		5374CB5B1F1F97F3C54108DF /* Pods-EmplateConsumerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumerTests.debug.xcconfig"; path = "Target Support Files/Pods-EmplateConsumerTests/Pods-EmplateConsumerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		703CED6A662FE0553DC8AA0B /* Pods-EmplateConsumerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumerUITests.release.xcconfig"; path = "Target Support Files/Pods-EmplateConsumerUITests/Pods-EmplateConsumerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85F1D2C1D286E563077DF4D6 /* Pods-EmplateConsumer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplateConsumer.debug.xcconfig"; path = "Target Support Files/Pods-EmplateConsumer/Pods-EmplateConsumer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,8 +192,9 @@
 		44F8895023C09B470032F371 /* EmplateConsumer */ = {
 			isa = PBXGroup;
 			children = (
-				44F8899D23C0AC870032F371 /* Model */,
+				44F889A623C0BBC10032F371 /* PostsList */,
 				44F8899823C0ABBE0032F371 /* Network */,
+				44F8899D23C0AC870032F371 /* Model */,
 				44F8898223C09E0C0032F371 /* Helpers */,
 				44F8898123C09DE90032F371 /* Utilities */,
 				44F8895123C09B470032F371 /* AppDelegate.swift */,
@@ -184,6 +229,7 @@
 		44F8898123C09DE90032F371 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				44F889D123C0BDF30032F371 /* Utilities.swift */,
 				44F8899423C09EB90032F371 /* Constants.swift */,
 			);
 			path = Utilities;
@@ -192,8 +238,10 @@
 		44F8898223C09E0C0032F371 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				44F889C823C0BD820032F371 /* FailView */,
 				44F8898323C09E150032F371 /* Fonts */,
 				44F889A223C0ACE90032F371 /* Encode+DecodeHelpers.swift */,
+				44F889C423C0BD760032F371 /* LoaderHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -223,6 +271,37 @@
 				44F8899E23C0ACA40032F371 /* PostModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		44F889A623C0BBC10032F371 /* PostsList */ = {
+			isa = PBXGroup;
+			children = (
+				44F889BB23C0BCE80032F371 /* Cells */,
+				44F889AB23C0BCCE0032F371 /* PostsInteractor.swift */,
+				44F889A823C0BCCE0032F371 /* PostsPresenter.swift */,
+				44F889A923C0BCCE0032F371 /* PostsProtocols.swift */,
+				44F889AA23C0BCCE0032F371 /* PostsRouter.swift */,
+				44F889A723C0BCCE0032F371 /* PostsViewController.swift */,
+			);
+			path = PostsList;
+			sourceTree = "<group>";
+		};
+		44F889BB23C0BCE80032F371 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				44F889BC23C0BCF50032F371 /* PostCell.swift */,
+				44F889BD23C0BCF60032F371 /* PostCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		44F889C823C0BD820032F371 /* FailView */ = {
+			isa = PBXGroup;
+			children = (
+				44F889CA23C0BD900032F371 /* CustomFailScreen.swift */,
+				44F889C923C0BD8F0032F371 /* CustomFailScreen.xib */,
+			);
+			path = FailView;
 			sourceTree = "<group>";
 		};
 		500693E87F439B6C88022BF4 /* Frameworks */ = {
@@ -359,6 +438,8 @@
 				44F8895E23C09B4A0032F371 /* LaunchScreen.storyboard in Resources */,
 				44F8895B23C09B4A0032F371 /* Assets.xcassets in Resources */,
 				44F8898B23C09E2E0032F371 /* sf-pro-text-light.ttf in Resources */,
+				44F889CB23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
+				44F889C123C0BCF60032F371 /* PostCell.xib in Resources */,
 				44F8898E23C09E2E0032F371 /* sf-pro-text-bold.ttf in Resources */,
 				44F8895923C09B470032F371 /* Main.storyboard in Resources */,
 				44F8898823C09E2E0032F371 /* sf-pro-text-regular.ttf in Resources */,
@@ -370,8 +451,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F889CC23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
 				44F8898F23C09E2E0032F371 /* sf-pro-text-bold.ttf in Resources */,
 				44F8899223C09E2E0032F371 /* sf-pro-text-medium.ttf in Resources */,
+				44F889C223C0BCF60032F371 /* PostCell.xib in Resources */,
 				44F8898923C09E2E0032F371 /* sf-pro-text-regular.ttf in Resources */,
 				44F8898C23C09E2E0032F371 /* sf-pro-text-light.ttf in Resources */,
 			);
@@ -381,8 +464,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F889CD23C0BD900032F371 /* CustomFailScreen.xib in Resources */,
 				44F8899023C09E2E0032F371 /* sf-pro-text-bold.ttf in Resources */,
 				44F8899323C09E2E0032F371 /* sf-pro-text-medium.ttf in Resources */,
+				44F889C323C0BCF60032F371 /* PostCell.xib in Resources */,
 				44F8898A23C09E2E0032F371 /* sf-pro-text-regular.ttf in Resources */,
 				44F8898D23C09E2E0032F371 /* sf-pro-text-light.ttf in Resources */,
 			);
@@ -481,12 +566,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F889B823C0BCCE0032F371 /* PostsInteractor.swift in Sources */,
+				44F889CE23C0BD900032F371 /* CustomFailScreen.swift in Sources */,
+				44F889B523C0BCCE0032F371 /* PostsRouter.swift in Sources */,
+				44F889BE23C0BCF60032F371 /* PostCell.swift in Sources */,
 				44F889A323C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */,
 				44F8895623C09B470032F371 /* ViewController.swift in Sources */,
+				44F889D223C0BDF30032F371 /* Utilities.swift in Sources */,
 				44F8899F23C0ACA40032F371 /* PostModel.swift in Sources */,
 				44F8899A23C0ABE40032F371 /* EndPointPosts.swift in Sources */,
+				44F889AC23C0BCCE0032F371 /* PostsViewController.swift in Sources */,
+				44F889B223C0BCCE0032F371 /* PostsProtocols.swift in Sources */,
 				44F8895223C09B470032F371 /* AppDelegate.swift in Sources */,
+				44F889C523C0BD760032F371 /* LoaderHelper.swift in Sources */,
 				44F8895423C09B470032F371 /* SceneDelegate.swift in Sources */,
+				44F889AF23C0BCCE0032F371 /* PostsPresenter.swift in Sources */,
 				44F8899523C09EB90032F371 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,11 +589,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F889B623C0BCCE0032F371 /* PostsRouter.swift in Sources */,
+				44F889AD23C0BCCE0032F371 /* PostsViewController.swift in Sources */,
+				44F889D323C0BDF30032F371 /* Utilities.swift in Sources */,
 				44F8896923C09B4B0032F371 /* EmplateConsumerTests.swift in Sources */,
 				44F889A023C0ACA40032F371 /* PostModel.swift in Sources */,
+				44F889C623C0BD760032F371 /* LoaderHelper.swift in Sources */,
 				44F8899B23C0ABE40032F371 /* EndPointPosts.swift in Sources */,
+				44F889B023C0BCCE0032F371 /* PostsPresenter.swift in Sources */,
+				44F889B323C0BCCE0032F371 /* PostsProtocols.swift in Sources */,
 				44F8899623C09EB90032F371 /* Constants.swift in Sources */,
+				44F889BF23C0BCF60032F371 /* PostCell.swift in Sources */,
+				44F889B923C0BCCE0032F371 /* PostsInteractor.swift in Sources */,
 				44F889A423C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */,
+				44F889CF23C0BD900032F371 /* CustomFailScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,11 +610,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F889B723C0BCCE0032F371 /* PostsRouter.swift in Sources */,
+				44F889AE23C0BCCE0032F371 /* PostsViewController.swift in Sources */,
+				44F889D423C0BDF30032F371 /* Utilities.swift in Sources */,
 				44F8897423C09B4B0032F371 /* EmplateConsumerUITests.swift in Sources */,
 				44F889A123C0ACA40032F371 /* PostModel.swift in Sources */,
+				44F889C723C0BD760032F371 /* LoaderHelper.swift in Sources */,
 				44F8899C23C0ABE40032F371 /* EndPointPosts.swift in Sources */,
+				44F889B123C0BCCE0032F371 /* PostsPresenter.swift in Sources */,
+				44F889B423C0BCCE0032F371 /* PostsProtocols.swift in Sources */,
 				44F8899723C09EB90032F371 /* Constants.swift in Sources */,
+				44F889C023C0BCF60032F371 /* PostCell.swift in Sources */,
+				44F889BA23C0BCCE0032F371 /* PostsInteractor.swift in Sources */,
 				44F889A523C0ACE90032F371 /* Encode+DecodeHelpers.swift in Sources */,
+				44F889D023C0BD900032F371 /* CustomFailScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

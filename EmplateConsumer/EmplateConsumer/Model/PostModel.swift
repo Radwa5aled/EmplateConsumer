@@ -75,11 +75,11 @@ struct Thumbnail: Codable {
     var name: String?
     var filetype: String?
     var width, height: Int?
-    var urls: Urls?
+    var urls: ThumbnailUrls?
 }
 
 // MARK: - Urls
-struct Urls: Codable {
+struct ThumbnailUrls: Codable {
     var original, large, mobile, thumbnail: String?
 }
 
