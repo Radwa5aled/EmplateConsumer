@@ -25,7 +25,7 @@ public class  Utilities {
             return newHeight
         }
         
-       return 250
+        return CGFloat(Constants.postsImageDefaultHeight)
     }
     
     //----------------------------------------------------------------------
@@ -35,9 +35,8 @@ public class  Utilities {
         var newDate = ""
         
         let dateFormatter = DateFormatter()
-        //2019-12-31T22:59:00+00:00
+        
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-        //"yyyy-MM-dd'T'HH:mm:ss'Z'"//"yyyy-MM-dd'T'HH:mm:ssZ"
         
         let startDate = dateFormatter.date(from: startDateStr)
         
