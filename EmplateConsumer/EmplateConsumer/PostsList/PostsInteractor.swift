@@ -25,8 +25,8 @@ class PostsInteractor: PostsInteractorInputProtocol {
                 do {
                     
                     let jsonDecoder = JSONDecoder()
-                    let genaricModel = try jsonDecoder.decode([PostsModel].self, from: response.data)
-                    self.presenter?.successGetPostsInPresenter(model:genaricModel)
+                    let postsModel = try jsonDecoder.decode([PostsModel].self, from: response.data)
+                    self.presenter?.successGetPostsInPresenter(model:postsModel)
                     
                 } catch let error {
                     self.presenter?.failGetPostsInPresenter(error: error.localizedDescription)

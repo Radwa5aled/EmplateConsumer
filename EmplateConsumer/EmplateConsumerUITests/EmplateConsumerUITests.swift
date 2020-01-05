@@ -32,7 +32,7 @@ class EmplateConsumerUITests: XCTestCase {
     
     private func testForCellExistence() {
         
-        let detailstable = app.tables.matching(identifier: "identTableView")
+        let detailstable = app.tables.matching(identifier: Constants.postsTableAccessIdntefier)
         let firstCell = detailstable.cells.element(matching: .cell, identifier: "tVC_0_0")
         let existencePredicate = NSPredicate(format: "exists == 1")
         let expectationEval = expectation(for: existencePredicate, evaluatedWith: firstCell, handler: nil)
@@ -42,8 +42,8 @@ class EmplateConsumerUITests: XCTestCase {
     
     
     private func testForCellSelection() {
-        let detailstable = app.tables.matching(identifier: "identTableView")
-        let firstCell = detailstable.cells.element(matching: .cell, identifier: "dtTVC_0_0")
+        let detailstable = app.tables.matching(identifier: Constants.postsTableAccessIdntefier)
+        let firstCell = detailstable.cells.element(matching: .cell, identifier: "tVC_0_0")
         let predicate = NSPredicate(format: "isHittable == true")
         let expectationEval = expectation(for: predicate, evaluatedWith: firstCell, handler: nil)
         let waiter = XCTWaiter.wait(for: [expectationEval], timeout: 10.0)

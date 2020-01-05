@@ -45,7 +45,7 @@ class PostCell: UITableViewCell {
         viewReservable.isHidden = !(model.collectible ?? false)
         
         //Caculate height according to api width|height factor ratio
-        consPostImageHeight.constant = Utilities.shared.getWidth_HeightFactor(viewWidth: self.frame.width, width: CGFloat(model.thumbnail?.width ?? 250), height: CGFloat(model.thumbnail?.height ?? 250))
+        consPostImageHeight.constant = Utilities.shared.getWidth_HeightFactor(viewWidth: self.frame.width, width: CGFloat(model.thumbnail?.width ?? Constants.postsCellImageDefaultHeight), height: CGFloat(model.thumbnail?.height ?? Constants.postsCellImageDefaultHeight))
         
         //image handle
         setImageFromCachedData(urls:(model.thumbnail?.urls)!)

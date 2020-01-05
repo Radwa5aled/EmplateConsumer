@@ -31,13 +31,14 @@ class PostsViewController: UIViewController{
     
     // #MARK:- Helper func
     func registerTableData() {
-        tableView.register(PostCell.self, forCellReuseIdentifier: "PostCell")
-        tableView.register(UINib(nibName: "PostCell",bundle: nil), forCellReuseIdentifier: "PostCell")
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 471
         
+        tableView.register(UINib(nibName: "\(PostCell.self)", bundle: nil), forCellReuseIdentifier: "\(PostCell.self)")
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = Constants.postsTableEstimatedRowHeight
+        
+        //Identifier for table ui testing
         tableView.isAccessibilityElement = true
-        tableView.accessibilityIdentifier = "identTableView"
+        tableView.accessibilityIdentifier = Constants.postsTableAccessIdntefier
         
     }
     
@@ -58,6 +59,7 @@ extension PostsViewController: UITableViewDelegate, UITableViewDataSource {
         
         cell.setData(model: postsArr[indexPath.row])
         
+        //Identifier for cell ui testing
         cell.isAccessibilityElement = true
         cell.accessibilityIdentifier = String(format: "tVC_%d_%d",
                                               indexPath.section, indexPath.row)

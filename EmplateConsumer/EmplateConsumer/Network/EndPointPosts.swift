@@ -49,7 +49,6 @@ extension EndPointPosts: TargetType {
     }
 
   public var task: Task {
-    //return .requestPlain // TODO
     return .requestParameters(parameters: ["include": "postfields,postperiods,thumbnail"],
                                   encoding: URLEncoding.default)
   }
